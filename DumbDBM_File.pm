@@ -4,7 +4,8 @@ package DumbDBM_File;
 #
 # Based on Python's dumbdbm / dbm.dumb
 #
-# Author: Patrick Canterino <patrick@patshaping.de>
+# Author: Patrick Canterino <patrick@patrick-canterino.de>
+# License: 2-Clause BSD License
 
 use strict;
 
@@ -285,12 +286,17 @@ index
 
 =head1 COPYRIGHT
 
+Copyright (c) 2019, Patrick Canterino, <patrick@patrick-canterino.de>
+
+This Perl module is licensed under the terms of the 2-Clause BSD License, see
+file F<LICENSE> or L<https://opensource.org/licenses/BSD-2-Clause> for details.
+
 =head1 AUTHOR
 
 DumbDBM_File was written by Patrick Canterino
-L<patrick@patshaping.de|mailto:patrick@patshaping.de>.
+L<patrick@patrick-canterino.de|mailto:patrick@patrick-canterino.de>.
 
-L<http://www.patshaping.de/>
+L<https://www.patrick-canterino.de/>
 
 If you wonder why I wrote this: I felt boring ;)
 
