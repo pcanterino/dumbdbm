@@ -258,11 +258,11 @@ size of each value.
 
 =item example.dir.bak
 
-This file B<may> containg a backup of the index file.
+This file B<may> contain a backup of the index file.
 
 =item example.dat
 
-This is the database file containing the values separated by zeros.
+This is the database file containing the values separated by zero bytes.
 
 =back
 
