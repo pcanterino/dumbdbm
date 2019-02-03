@@ -262,7 +262,7 @@ This file B<may> contain a backup of the index file.
 
 =item example.dat
 
-This is the database file containing the values separated by zero bytes.
+This is the database file containing the values separated by zero-bytes.
 
 =back
 
