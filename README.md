@@ -1,4 +1,4 @@
-# `DumbDBM_File` --- Portable DBM implementation
+# `DumbDBM_File` – Portable DBM implementation
 
 With `dumbdbm` / `dbm.dumb` the Python programming language provides a very simple DBM style database (i.e. a key-value database) written entirely in Python, requiring no external library. Being slow and some kind of *dumb*, it is intended as a last resort fallback if no other (more robust) database modules like GDBM, NDBM or Berkeley DB are available.
 
