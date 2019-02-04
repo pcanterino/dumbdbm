@@ -93,7 +93,7 @@ The value is inserted into a block. If the value is too big, more than one block
 
 When a value is modified and the new value fits in the old set of blocks, the old ones are used. Otherwise, a new set of blocks is placed at the end of the file.
 
-Currently, when a value is removed from the database, only it's entry in the index file is removed, meaning that it is still in the database. This also means, that it will become unaccessible and rendering the corresponding blocks lost. A similar thing happens when a value is moved to different blocks: The index file points to the value in the new blocks, but the old blocks remain unaccessible in the database file.
+Currently, when a value is removed from the database, only its entry in the index file is removed, meaning that it is still in the database. This also means, that it will become unaccessible and the corresponding blocks will become useless. A similar thing happens when a value is moved to different blocks: The index file points to the value in the new blocks, but the old blocks remain unaccessible in the database file.
 
 ## License
 
